@@ -18,7 +18,7 @@
     <h4>{{products[2]}}</h4>
     <p>{{price2}}만원</p>
   </div>
-  수정수정수정
+  수정수정
   
 </template>
 
