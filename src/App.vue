@@ -4,7 +4,7 @@
     <a v-for="i in menus" :key="i">{{i}}</a>
     
   </div>
-  <img alt="Vue logo" src="./assets/logo.png">
+
   <div>
     직방
     <h4>{{products[0]}}</h4>
@@ -18,6 +18,7 @@
     <h4>{{products[2]}}</h4>
     <p>{{price2}}만원</p>
   </div>
+  
 </template>
 
 <script>
@@ -43,7 +44,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 .menu{
